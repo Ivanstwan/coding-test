@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex flex-1 flex-col max-w-lg mx-auto">
+      <h1 id="header">List Soal</h1>
+      <div class="flex flex-col">
+        <h2>Soal 1 - Leap Year</h2>
+        <input
+          type="number"
+          placeholder="input a 'number', example '4'"
+          id="soal-1"
+        />
+        <div id="soal-1--result">Not number year inputed</div>
+
+        <h2>Soal 2</h2>
+        <div id="soal-2"></div>
+
+        <h2>Soal 3</h2>
+        <div>
+          <div>
+            <input type="text" placeholder="Name" id="soal-3--input-name" />
+            <input type="number" placeholder="Age" id="soal-3--input-age" />
+          </div>
+          <button type="button" id="soal-3--add">Tambah karyawan</button>
+        </div>
+        <p>List karyawan</p>
+        <div id="soal-3--list" class="pl-4"></div>
+        <p>List karyawan diatas 55 tahun</p>
+        <div id="soal-3--list-over" class="pl-4"></div>
+
+        <h2>Soal 4</h2>
+        <div>
+          <div>
+            <input type="text" placeholder="Key" id="soal-4--input-key" />
+            <input type="text" placeholder="Value" id="soal-4--input-value" />
+          </div>
+          <button type="button" id="soal-4--add">Tambah Object</button>
+        </div>
+        <p>List object</p>
+        <div id="soal-4--list" class="pl-4"></div>
+      </div>
+    </div>
+
+    <script src="src/soal1.js"></script>
+    <script src="src/soal2.js"></script>
+    <script src="src/soal3.js"></script>
+    <script src="src/soal4.js"></script>
+  </body>
+</html>
